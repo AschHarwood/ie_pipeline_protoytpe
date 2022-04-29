@@ -33,6 +33,6 @@ ship_weight_count = pd.concat([item_count, item_weight, shipping_cost], axis=1)
 
 ship_weight_count['ship_cost'] = ship_weight_count.iloc[:, 0] * ship_weight_count.iloc[:, 1] * ship_weight_count.iloc[:, 2]
 
-ship_weight_count.to_csv('shipping_cost.csv')
+ship_weight_count.to_csv('~/pipeline_mvp/data/shipping_cost.csv')
 
 

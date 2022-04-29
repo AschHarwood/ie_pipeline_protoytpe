@@ -31,6 +31,6 @@ whole_count
 
 whole_count['total_cost'] = whole_count['value'] * whole_count['wholesale_cost_per_item']
 
-whole_count.to_csv('total_cost.csv')
+whole_count.to_csv('~/pipeline_mvp/data/total_cost.csv')
 
 

@@ -27,6 +27,6 @@ total_cost = total_wholesale_cost['total_cost'] + shipping_cost['ship_cost']
 
 shipping_cost
 
-total_cost.to_csv('total_item_cost.csv')
+total_cost.to_csv('~/pipeline_mvp/data/total_item_cost.csv')
 
 
